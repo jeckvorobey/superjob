@@ -2,7 +2,11 @@
 
 require_once './config.php';
 
+//строка запроса вакансий
+//33 -> Интернет, связь, телеком
 $url_vacansies = SJ_BASE_URL_API . SJ_VERSION_API . "vacancies/?catalogues=33";
+
+//строка запроса категорий
 $url_cat = SJ_BASE_URL_API . SJ_VERSION_API . "catalogues/";
 
 $headers = [
